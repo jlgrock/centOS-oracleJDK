@@ -42,7 +42,7 @@ Current Version: **6.6-8u45**
 If you find this image useful here's how you can help:
 
 - Send a Pull Request with your awesome new features and bug fixes
-- Help new users with [Issues](https://github.com/jlgrock/rhel-oraclejdk/issues) they may encounter
+- Help new users with [Issues](https://github.com/jlgrock/centOS-oraclejdk/issues) they may encounter
 
 # Issues
 
@@ -63,7 +63,7 @@ sudo apt-get install lxc-docker
 
 Fedora and RHEL/CentOS users should try disabling selinux with `setenforce 0` and check if resolves the issue. If it does than there is not much that I can help you with. You can either stick with selinux disabled (not recommended by redhat) or switch to using ubuntu.
 
-If using the latest docker version and/or disabling selinux does not fix the issue then please file a issue request on the [issues](https://github.com/jlgrock/rhel-oraclejdk/issues) page.
+If using the latest docker version and/or disabling selinux does not fix the issue then please file a issue request on the [issues](https://github.com/jlgrock/centOS-oraclejdk/issues) page.
 
 In your issue report please make sure you provide the following information:
 
@@ -77,21 +77,21 @@ In your issue report please make sure you provide the following information:
 Pull the image from the docker index. This is the recommended method of installation as it is easier to update image. These builds are performed by the **Docker Trusted Build** service.
 
 ```bash
-docker pull jlgrock/rhel-oraclejdk:6.6-8u45
+docker pull jlgrock/centOS-oraclejdk:6.6-8u45
 ```
 
 You can also pull the `latest` tag which is built from the repository *HEAD*
 
 ```bash
-docker pull webcenter/rhel-oraclejdk:latest
+docker pull webcenter/centOS-oraclejdk:latest
 ```
 
 Alternately you can build the image locally.
 
 ```bash
-git clone https://github.com/jlgrock/rhel-oraclejdk.git
+git clone https://github.com/jlgrock/centOS-oraclejdk.git
 cd rhel-oraclejdk
-docker build --tag="rhel-oraclejdk" .
+docker build --tag="centOS-oraclejdk" .
 ```
 
 # Quick Start
@@ -101,8 +101,8 @@ You can launch the image using the docker command line :
 - **For test purpose :**
 
 ```bash
-docker run --name='rhel-oraclejdk' -it --rm \
-jlgrock/rhel-oraclejdk:latest /bin/bash
+docker run --name='centOS-oraclejdk' -it --rm \
+jlgrock/centOS-oraclejdk:latest /bin/bash
 ```
 
 
