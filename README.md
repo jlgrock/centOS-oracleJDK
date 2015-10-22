@@ -1,4 +1,4 @@
-# Introduction to centos-ora
+# Introduction
 
 Dockerfile to build an Oracle JDK 8 headless container image with CentOS.
 
