@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # load the versions
-/bin/sh ./loadenv.sh
+. ./loadenv.sh
 
 # Publish the image
-/bin/sh ./build.sh
+. ./build.sh
 
 # Build the image
 docker push jlgrock/centos-oraclejdk:$CENTOS-$JDK
