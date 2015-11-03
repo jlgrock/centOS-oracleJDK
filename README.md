@@ -2,16 +2,12 @@
 
 Dockerfile to build an Oracle JDK 8 headless container image with CentOS.
 
-## Version
-
-Current Version: **6.6-8u45**
-
 # Installation
 
 Pull the image from the docker index. This is the recommended method of installation as it is easier to update image. These builds are performed by the **Docker Trusted Build** service.
 
 ```bash
-docker pull jlgrock/centos-oraclejdk:latest
+docker pull jlgrock/centos-oraclejdk:$VERSION
 ```
 
 Alternately you can build the image locally.
