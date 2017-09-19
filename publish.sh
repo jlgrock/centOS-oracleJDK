@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 # load the versions
 . ./loadenv.sh

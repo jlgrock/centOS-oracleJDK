@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 # Load the version from the VERSION file
 for line in $(cat VERSION)
